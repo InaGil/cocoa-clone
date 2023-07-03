@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat screen Cacao talk</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="components/nav-bar.css">
+    <link rel="stylesheet" href="components/screen-header.css">
+    <link rel="stylesheet" href="css/screens/friends.css">
+    <link rel="stylesheet" href="components/user-components.css">
+    <link rel="stylesheet" href="components/badge.css">
+    <link rel="stylesheet" href="components/alt-screen-header.css">
+    <link rel="stylesheet" href="components/no-mobile.css">
+</head>
+<body id="chats-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fa-solid fa-wifi"></i>
+    </div>
+        <div class="status-bar__column">
+        <span>18:43</span></div>
+        <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full" fa-lg></i>
+        <i class="fa-solid fa-bolt"></i>
+    </div>
+    </div>
+
+
+    <header class="alt-header header-chats">
+        <div class="alt-header__column">
+            <a href="chat.html">
+            <i class="fa-solid fa-angle-left fa-2x"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <span class="alt-header__title">Wade</span>
+        </div>
+        <div class="alt-header__column chats-header__icon">
+            <span><i class="fa-solid fa-magnifying-glass fa-2x"></i>
+           <i class="fa-solid fa-bars fa-2x"></i></span>
+        </div>
+    </header>
+
+
+
+
+    <main class="main-screen main-chats">
+        
+        <div class="chats__timestamp">
+            Monday, July 2, 2023
+        </div>
+
+        <div class="message-row">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/elemental-1662973129.jpg?crop=0.372xw:0.691xh;0.347xw,0.0599xh&resize=1200:*">
+            <div class="message-row__content">
+                <span class="message_author">Wade</span>
+                <div class="message__info">
+                    <span class="message__bubble">Hey</span>
+                    <span class="message__time">18:20</span>
+                </div>
+            </div>
+        </div>
+       
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">What's up?</span>
+                    <span class="message__time">18:22</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/elemental-1662973129.jpg?crop=0.372xw:0.691xh;0.347xw,0.0599xh&resize=1200:*">
+            <div class="message-row__content">
+                <span class="message_author">Wade</span>
+                <div class="message__info">
+                    <span class="message__bubble">Are you free tonight?</span>
+                    <span class="message__time">18:22</span>
+                </div>
+            </div>
+        </div>
+    
+    </main>
+    
+
+    <form class="reply">
+        <div class="form__column">
+            <i class="fa-regular fa-square-plus fa-xl"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..">
+            <i class="fa-regular fa-face-kiss-wink-heart fa-lg"></i>
+            <button>
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+        
+    </form>
+    
+    <div id="no-mobile">
+        <span>Your Screen is too BIG</span>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/6f5445629d.js" crossorigin="anonymous"></script>
+</body>
+</html>
